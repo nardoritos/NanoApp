@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NanoApp.LoginPage"
+			 xmlns:local="clr-namespace:NanoApp">
+	<AbsoluteLayout>
+		<Image	Source="{local:EmbeddedResource ResourceID=NanoApp.Imagens.background.jpg}"
+					Aspect="AspectFill"
+					AbsoluteLayout.LayoutBounds="0,0,1,1"
+					AbsoluteLayout.LayoutFlags="All"/>
+		<StackLayout 
+			Padding="50"
+			Spacing="30"
+			
+			AbsoluteLayout.LayoutBounds="0,0.5,1,0.9"
+			AbsoluteLayout.LayoutFlags="All">
+			<Image  Source="{local:EmbeddedResource ResourceID=NanoApp.Imagens.nanotech-logo-branco.png}"
+					VerticalOptions="CenterAndExpand"
+					Aspect="AspectFit"
+					/>
+			<Entry	Placeholder="LOGIN"
+					PlaceholderColor="White"
+					TextColor="White"
+					FontSize="30"
+					/>
+			<Entry	Placeholder="SENHA"
+					PlaceholderColor="White"
+					TextColor="White"
+					FontSize="30"
+					
+					/>
+			<Button Text="Entrar"
+					BackgroundColor="Yellow"
+					BorderColor="White"
+					TextColor="White"
+					Clicked="Entrar"
+					/>
+		</StackLayout>
+	</AbsoluteLayout>
+</ContentPage>
