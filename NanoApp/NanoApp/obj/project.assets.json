@@ -2,6 +2,18 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.0": {
+      "Forms.Controls.FlexButton/0.7.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.0.0.482510"
+        },
+        "compile": {
+          "lib/netstandard1.0/Flex.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/Flex.dll": {}
+        }
+      },
       "Microsoft.NETCore.Platforms/1.1.0": {
         "type": "package",
         "compile": {
@@ -26,6 +38,18 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+      "Xam.Plugins.Forms.ImageCircle/3.0.0.5": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.0.0.446417"
+        },
+        "compile": {
+          "lib/netstandard2.0/ImageCircle.Forms.Plugin.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ImageCircle.Forms.Plugin.dll": {}
+        }
+      },
       "Xamarin.Forms/3.0.0.561731": {
         "type": "package",
         "compile": {
@@ -46,6 +70,21 @@
     }
   },
   "libraries": {
+    "Forms.Controls.FlexButton/0.7.0": {
+      "sha512": "B6IJ5+IDx6xXIDgU/TVYq80dzFwXerXSqfHXfWeoJJdg4wGlAPJf4wYTDFHOPO1o4Yt0+5cXHPAJuo7n9aaxkg==",
+      "type": "package",
+      "path": "forms.controls.flexbutton/0.7.0",
+      "files": [
+        "forms.controls.flexbutton.0.7.0.nupkg.sha512",
+        "forms.controls.flexbutton.nuspec",
+        "lib/monoandroid10/Flex.Android.dll",
+        "lib/monoandroid10/Flex.dll",
+        "lib/netstandard1.0/Flex.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Flex.dll",
+        "lib/xamarinios10/Flex.dll",
+        "lib/xamarinios10/Flex.iOS.dll"
+      ]
+    },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "type": "package",
@@ -185,6 +224,26 @@
         "lib/netstandard1.0/_._",
         "netstandard.library.2.0.1.nupkg.sha512",
         "netstandard.library.nuspec"
+      ]
+    },
+    "Xam.Plugins.Forms.ImageCircle/3.0.0.5": {
+      "sha512": "59HyuAaUzuloQmu/PVCDCJQMRuuhqmIpCQ+d5hH5Qp8AZsa/vDi5ulrXDKRMZSZt/xbXsyZV+aZ/W/SZaYt2Mg==",
+      "type": "package",
+      "path": "xam.plugins.forms.imagecircle/3.0.0.5",
+      "files": [
+        "lib/monoandroid71/ImageCircle.Forms.Plugin.dll",
+        "lib/monoandroid71/ImageCircle.Forms.Plugin.xml",
+        "lib/netstandard1.0/ImageCircle.Forms.Plugin.dll",
+        "lib/netstandard1.0/ImageCircle.Forms.Plugin.xml",
+        "lib/netstandard2.0/ImageCircle.Forms.Plugin.dll",
+        "lib/netstandard2.0/ImageCircle.Forms.Plugin.xml",
+        "lib/uap10.0.16299/ImageCircle.Forms.Plugin.dll",
+        "lib/uap10.0.16299/ImageCircle.Forms.Plugin.pri",
+        "lib/uap10.0.16299/ImageCircle.Forms.Plugin.xml",
+        "lib/xamarinios10/ImageCircle.Forms.Plugin.dll",
+        "lib/xamarinios10/ImageCircle.Forms.Plugin.xml",
+        "xam.plugins.forms.imagecircle.3.0.0.5.nupkg.sha512",
+        "xam.plugins.forms.imagecircle.nuspec"
       ]
     },
     "Xamarin.Forms/3.0.0.561731": {
@@ -340,7 +399,9 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "Forms.Controls.FlexButton >= 0.7.0",
       "NETStandard.Library >= 2.0.1",
+      "Xam.Plugins.Forms.ImageCircle >= 3.0.0.5",
       "Xamarin.Forms >= 3.0.0.561731"
     ]
   },
@@ -385,11 +446,19 @@
     "frameworks": {
       "netstandard2.0": {
         "dependencies": {
+          "Forms.Controls.FlexButton": {
+            "target": "Package",
+            "version": "[0.7.0, )"
+          },
           "NETStandard.Library": {
             "suppressParent": "All",
             "target": "Package",
             "version": "[2.0.1, )",
             "autoReferenced": true
+          },
+          "Xam.Plugins.Forms.ImageCircle": {
+            "target": "Package",
+            "version": "[3.0.0.5, )"
           },
           "Xamarin.Forms": {
             "target": "Package",
