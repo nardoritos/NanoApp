@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "fd4c3075284148a20df07b7b3748bf85a887eb57"
+    "signature": "4a322d328f5984f998df96f57fa7bc5946128cba"
   },
   "compilationOptions": {},
   "targets": {
@@ -9,12 +9,21 @@
     ".NETStandard,Version=v2.0/": {
       "NanoApp/1.0.0": {
         "dependencies": {
+          "Forms.Controls.FlexButton": "0.7.0",
           "NETStandard.Library": "2.0.1",
           "Xam.Plugins.Forms.ImageCircle": "3.0.0.5",
-          "Xamarin.Forms": "3.1.0.583944"
+          "Xamarin.Forms": "3.0.0.561731"
         },
         "runtime": {
           "NanoApp.dll": {}
+        }
+      },
+      "Forms.Controls.FlexButton/0.7.0": {
+        "dependencies": {
+          "Xamarin.Forms": "3.0.0.561731"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Flex.dll": {}
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
@@ -25,13 +34,13 @@
       },
       "Xam.Plugins.Forms.ImageCircle/3.0.0.5": {
         "dependencies": {
-          "Xamarin.Forms": "3.1.0.583944"
+          "Xamarin.Forms": "3.0.0.561731"
         },
         "runtime": {
           "lib/netstandard2.0/ImageCircle.Forms.Plugin.dll": {}
         }
       },
-      "Xamarin.Forms/3.1.0.583944": {
+      "Xamarin.Forms/3.0.0.561731": {
         "runtime": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {},
           "lib/netstandard2.0/Xamarin.Forms.Platform.dll": {},
@@ -45,6 +54,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Forms.Controls.FlexButton/0.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-B6IJ5+IDx6xXIDgU/TVYq80dzFwXerXSqfHXfWeoJJdg4wGlAPJf4wYTDFHOPO1o4Yt0+5cXHPAJuo7n9aaxkg==",
+      "path": "forms.controls.flexbutton/0.7.0",
+      "hashPath": "forms.controls.flexbutton.0.7.0.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",
@@ -67,12 +83,12 @@
       "path": "xam.plugins.forms.imagecircle/3.0.0.5",
       "hashPath": "xam.plugins.forms.imagecircle.3.0.0.5.nupkg.sha512"
     },
-    "Xamarin.Forms/3.1.0.583944": {
+    "Xamarin.Forms/3.0.0.561731": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-q4AGFr8k9z6v5u++COV6M5TEZ8Oh8iiU3inVysapL5j75bhKfbcU2RizgZxTQ7+2CdlzVK+Dz+nyFx4JFh0Cwg==",
-      "path": "xamarin.forms/3.1.0.583944",
-      "hashPath": "xamarin.forms.3.1.0.583944.nupkg.sha512"
+      "sha512": "sha512-ZnpuSybty6uZsgInJQD2QoYsjsdzPmu25EltSNJTnwgiQCW0MVZfwU6//jbt4Sf0ZfAiryi8MZFhU1I0NAP6Ew==",
+      "path": "xamarin.forms/3.0.0.561731",
+      "hashPath": "xamarin.forms.3.0.0.561731.nupkg.sha512"
     }
   }
 }

@@ -55,3 +55,6 @@ C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp.iOS\obj\iPhoneSimulator\Debug\X
 C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp.iOS\obj\iPhoneSimulator\Debug\NanoApp.iOS.csproj.CopyComplete
 C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp.iOS\obj\iPhoneSimulator\Debug\NanoApp.iOS.exe
 C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp.iOS\obj\iPhoneSimulator\Debug\NanoApp.iOS.pdb
+C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp.iOS\bin\iPhoneSimulator\Debug\Flex.dll
+C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp.iOS\bin\iPhoneSimulator\Debug\Flex.iOS.dll
+C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp.iOS\bin\iPhoneSimulator\Debug\ImageCircle.Forms.Plugin.dll

@@ -10,4 +10,5 @@ C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp\obj\Debug\netstandard2.0\NanoAp
 C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp\obj\Debug\netstandard2.0\NanoApp.AssemblyInfo.cs
 C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp\obj\Debug\netstandard2.0\NanoApp.dll
 C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp\obj\Debug\netstandard2.0\NanoApp.pdb
+C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp\obj\Debug\netstandard2.0\NanoApp.csprojAssemblyReference.cache

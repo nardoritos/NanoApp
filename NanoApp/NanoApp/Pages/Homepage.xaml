@@ -2,17 +2,20 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="NanoApp.Homepage"
-			 xmlns:flexbutton="clr-namespace:Flex.Controls;assembly=Flex"
+			 xmlns:flex="clr-namespace:Flex.Controls;assembly=Flex"
 			 Title="Início">
-	<AbsoluteLayout>
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="150"/>
+			<RowDefinition Height="*"/>
+		</Grid.RowDefinitions>
 		<StackLayout BackgroundColor="#FFAD01"
-					 AbsoluteLayout.LayoutBounds="0,0,1,150"
-					 AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional">
+					 Grid.Row="0">
 			<Grid VerticalOptions="CenterAndExpand"
 				  HorizontalOptions="CenterAndExpand">
 				<Grid.ColumnDefinitions>
 					<ColumnDefinition Width="100"/>
-					<ColumnDefinition Width="65"/>
+					<ColumnDefinition Width="80"/>
 				</Grid.ColumnDefinitions>
 				<Grid.RowDefinitions>
 					<RowDefinition Height="15"/>
@@ -35,10 +38,9 @@
 					   Grid.Row="2"/>
 			</Grid>
 		</StackLayout>
-		<StackLayout>
-			<flexbutton:FlexButton Text="AAAA">
-				
-			</flexbutton:FlexButton>
+		<StackLayout Orientation="Horizontal" HorizontalOptions="Center" Grid.Row="1">
+			
+		
 		</StackLayout>
-	</AbsoluteLayout>
+	</Grid>
 </ContentPage>

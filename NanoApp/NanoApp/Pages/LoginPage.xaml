@@ -22,19 +22,24 @@
 					PlaceholderColor="White"
 					TextColor="White"
 					FontSize="30"
-					/>
+					FontFamily="{StaticResource RobotoLight}"/>
+
 			<Entry	Placeholder="SENHA"
 					PlaceholderColor="White"
 					TextColor="White"
 					FontSize="30"
-					
-					/>
-			<Button Text="Entrar"
-					BackgroundColor="Yellow"
+					FontFamily="{StaticResource RobotoLight}"/>
+			
+			<Button Text="ENTRAR"
+					BackgroundColor="#8CC63E"
 					BorderColor="White"
-					TextColor="White"
 					Clicked="Entrar"
-					/>
+					FontSize="Large"
+					CornerRadius="20"
+					BorderWidth="1"
+					TextColor="White"
+					x:Name="btn"
+					FontFamily="{StaticResource RobotoLight}"/>
 		</StackLayout>
 	</AbsoluteLayout>
 </ContentPage>
