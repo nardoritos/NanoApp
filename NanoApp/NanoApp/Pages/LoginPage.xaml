@@ -47,5 +47,42 @@
 					x:Name="btn"
 					FontFamily="{StaticResource RobotoLight}"/>
 		</StackLayout>
+		<AbsoluteLayout Opacity="0"
+						IsEnabled="{Binding IsLoading}"
+						IsVisible="{Binding IsLoading}"
+						AbsoluteLayout.LayoutBounds="0,0,1,1"
+						AbsoluteLayout.LayoutFlags="All"
+						x:Name="Layout">
+			<BoxView Color="Black"
+					 Opacity="0.5"
+				 AbsoluteLayout.LayoutBounds="0,0,1,1"
+				 AbsoluteLayout.LayoutFlags="All"
+				 IsEnabled="{Binding IsLoading}"
+				 IsVisible="{Binding IsLoading}"
+				 x:Name="box"
+				 />
+			<Frame HeightRequest="40"
+			   WidthRequest="40"
+			   IsEnabled="{Binding IsLoading}"
+			   IsVisible="{Binding IsLoading}"
+			   AbsoluteLayout.LayoutBounds="0.5,0.5,150,120"
+			   AbsoluteLayout.LayoutFlags="PositionProportional"
+			   x:Name="frame">
+				<StackLayout VerticalOptions="Center"
+						 HorizontalOptions="Center">
+					<Label Text="Carregando..."
+					   FontSize="Medium"
+					   FontFamily="{StaticResource RobotoLight}"
+					   HorizontalOptions="Center"
+					   VerticalOptions="Center"
+					   Margin="0,0,0,10"/>
+					<ActivityIndicator IsRunning="{Binding IsLoading}"
+								   IsEnabled="{Binding IsLoading}"
+								   IsVisible="{Binding IsLoading}"
+								   HorizontalOptions="Center"
+								   VerticalOptions="Center"/>
+				</StackLayout>
+			</Frame>
+		</AbsoluteLayout>
 	</AbsoluteLayout>
 </ContentPage>

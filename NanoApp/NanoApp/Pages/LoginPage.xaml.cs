@@ -10,6 +10,8 @@ using System.Windows.Input;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using Acr.UserDialogs;
+using System.ComponentModel;
+using Xamanimation;
 
 namespace NanoApp
 {
@@ -25,9 +27,8 @@ namespace NanoApp
     }
 
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class LoginPage : ContentPage
+    public partial class LoginPage : ContentPage, INotifyPropertyChanged
     {
-        public bool IsLoading;
         public string URL { get; set; }
         private HttpClient _client = new HttpClient();
         private ObservableCollection<Usuario> _usuarios;
@@ -35,9 +36,34 @@ namespace NanoApp
         public LoginPage()
         {
             InitializeComponent();
-            IsLoading = true;
-
+            BindingContext = this;
             CheckInfo();
+        }
+        public void ValorIsLoading(bool valor)
+        {
+            IsLoading = valor;
+        }
+        private bool isLoading;
+        public bool IsLoading
+        {
+            get
+            {
+                return this.isLoading;
+            }
+            set
+            {
+                this.isLoading = value;
+                RaisePropertyChanged("IsLoading");
+            }
+        }
+
+        public event PropertyChangedEventHandler PropertyChanged;
+        public void RaisePropertyChanged(string name)
+        {
+            if (PropertyChanged != null)
+            {
+                PropertyChanged(this, new PropertyChangedEventArgs(name));
+            }
         }
 
         async void CheckInfo()
@@ -46,23 +72,30 @@ namespace NanoApp
             {
                 try
                 {
-                    URL = "https://nanoapp.000webhostapp.com/API.php?nome=" + Settings.UserName + "&senha=" + Settings.Senha;
-                    IsLoading = true;
-                    await Carregar();
+                    LoadFull(Settings.UserName, Settings.Senha);
                 }
                 catch (Exception)
                 {
-                    IsLoading = false;
+                    ValorIsLoading(false);
                     await DisplayAlert("Erro ao conectar", "Digite novamente seus dados", "OK");
                 }
             }
         }
 
-        async void Entrar()
+        void Entrar()
         {
-            URL = "https://nanoapp.000webhostapp.com/API.php?nome=" + Login.Text + "&senha=" + Senha.Text;
-            IsLoading = true;
+            LoadFull(Login.Text,Senha.Text);
+
+        }
+        
+        async void LoadFull(string login, string senha)
+        {
+            ValorIsLoading(true);
+            await Layout.FadeTo(1, 300);
+
+            URL = "https://nanoapp.000webhostapp.com/API.php?nome=" + login + "&senha=" + senha;
             await Carregar();
+            await Layout.FadeTo(0, 1);
         }
 
         private async Task Carregar()
@@ -71,7 +104,7 @@ namespace NanoApp
             {
                 var content = await _client.GetStringAsync(URL);
                 var usuarios = JsonConvert.DeserializeObject<List<Usuario>>(content);
-
+                
                 _usuarios = new ObservableCollection<Usuario>(usuarios);
                 if (_usuarios.Count > 0)
                 {
@@ -81,16 +114,17 @@ namespace NanoApp
                     Settings.Obra = _usuarios[0].Obra;
                     Settings.Motorista = _usuarios[0].Motorista;
                     Settings.Tipo = _usuarios[0].Tipo;
-
+                    
                     var newPage = new MasterDetailPage() { Master = new ContentPage() { Title = "ContentPage" }, Detail = new NavigationPage(new Homepage()) { BarTextColor = Color.White, BarBackgroundColor = Color.FromHex("#D49000") } };
+
                     App.Current.MainPage = newPage;
                 }
             }
-            catch (Exception)
+            catch (Exception ex)
             {
                 IsLoading = false;
-                await DisplayAlert("Erro ao conectar", "Digite novamente seus dados", "OK");
-
+                await DisplayAlert("Erro ao conectar", ex.ToString(), "OK");
+                ValorIsLoading(false);
             }
         }
     }

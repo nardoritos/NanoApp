@@ -108,6 +108,18 @@
           "lib/Xamarin.iOS10/Plugin.Settings.dll": {}
         }
       },
+      "Xamanimation/1.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.4.0.18342"
+        },
+        "compile": {
+          "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Xamanimation.dll": {}
+        },
+        "runtime": {
+          "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Xamanimation.dll": {}
+        }
+      },
       "Xamarin.Forms/3.0.0.561731": {
         "type": "package",
         "compile": {
@@ -241,6 +253,7 @@
           "Newtonsoft.Json": "11.0.2",
           "Xam.Plugins.Forms.ImageCircle": "3.0.0.5",
           "Xam.Plugins.Settings": "3.1.1",
+          "Xamanimation": "1.1.0",
           "Xamarin.Forms": "3.0.0.561731"
         },
         "compile": {
@@ -358,6 +371,18 @@
           "lib/Xamarin.iOS10/Plugin.Settings.dll": {}
         }
       },
+      "Xamanimation/1.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.4.0.18342"
+        },
+        "compile": {
+          "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Xamanimation.dll": {}
+        },
+        "runtime": {
+          "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Xamanimation.dll": {}
+        }
+      },
       "Xamarin.Forms/3.0.0.561731": {
         "type": "package",
         "compile": {
@@ -491,6 +516,7 @@
           "Newtonsoft.Json": "11.0.2",
           "Xam.Plugins.Forms.ImageCircle": "3.0.0.5",
           "Xam.Plugins.Settings": "3.1.1",
+          "Xamanimation": "1.1.0",
           "Xamarin.Forms": "3.0.0.561731"
         },
         "compile": {
@@ -608,6 +634,18 @@
           "lib/Xamarin.iOS10/Plugin.Settings.dll": {}
         }
       },
+      "Xamanimation/1.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.4.0.18342"
+        },
+        "compile": {
+          "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Xamanimation.dll": {}
+        },
+        "runtime": {
+          "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Xamanimation.dll": {}
+        }
+      },
       "Xamarin.Forms/3.0.0.561731": {
         "type": "package",
         "compile": {
@@ -741,6 +779,7 @@
           "Newtonsoft.Json": "11.0.2",
           "Xam.Plugins.Forms.ImageCircle": "3.0.0.5",
           "Xam.Plugins.Settings": "3.1.1",
+          "Xamanimation": "1.1.0",
           "Xamarin.Forms": "3.0.0.561731"
         },
         "compile": {
@@ -858,6 +897,18 @@
           "lib/Xamarin.iOS10/Plugin.Settings.dll": {}
         }
       },
+      "Xamanimation/1.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.4.0.18342"
+        },
+        "compile": {
+          "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Xamanimation.dll": {}
+        },
+        "runtime": {
+          "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Xamanimation.dll": {}
+        }
+      },
       "Xamarin.Forms/3.0.0.561731": {
         "type": "package",
         "compile": {
@@ -991,6 +1042,7 @@
           "Newtonsoft.Json": "11.0.2",
           "Xam.Plugins.Forms.ImageCircle": "3.0.0.5",
           "Xam.Plugins.Settings": "3.1.1",
+          "Xamanimation": "1.1.0",
           "Xamarin.Forms": "3.0.0.561731"
         },
         "compile": {
@@ -1340,6 +1392,17 @@
         "xam.plugins.settings.nuspec"
       ]
     },
+    "Xamanimation/1.1.0": {
+      "sha512": "RcUXT9XQOFBU0imnr3WVtH6MNtNELvm2FHb/Pu5YG9OGacGggP6ariiJlh+q8BiWBw1T8RkQkP/q8jpG2DpzOg==",
+      "type": "package",
+      "path": "xamanimation/1.1.0",
+      "files": [
+        "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Xamanimation.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Xamanimation.pdb",
+        "xamanimation.1.1.0.nupkg.sha512",
+        "xamanimation.nuspec"
+      ]
+    },
     "Xamarin.Forms/3.0.0.561731": {
       "sha512": "ZnpuSybty6uZsgInJQD2QoYsjsdzPmu25EltSNJTnwgiQCW0MVZfwU6//jbt4Sf0ZfAiryi8MZFhU1I0NAP6Ew==",
       "type": "package",
@@ -1505,6 +1568,7 @@
       "Newtonsoft.Json >= 11.0.2",
       "Xam.Plugins.Forms.ImageCircle >= 3.0.0.5",
       "Xam.Plugins.Settings >= 3.1.1",
+      "Xamanimation >= 1.1.0",
       "Xamarin.Forms >= 3.0.0.561731"
     ]
   },
@@ -1568,6 +1632,10 @@
           "Xam.Plugins.Settings": {
             "target": "Package",
             "version": "[3.1.1, )"
+          },
+          "Xamanimation": {
+            "target": "Package",
+            "version": "[1.1.0, )"
           },
           "Xamarin.Forms": {
             "target": "Package",

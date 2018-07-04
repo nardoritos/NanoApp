@@ -1,5 +1,16 @@
 C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp.iOS\bin\iPhoneSimulator\Debug\NanoApp.iOS.exe
 C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp.iOS\bin\iPhoneSimulator\Debug\NanoApp.iOS.pdb
+C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp.iOS\bin\iPhoneSimulator\Debug\Acr.UserDialogs.dll
+C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp.iOS\bin\iPhoneSimulator\Debug\BTProgressHUD.dll
+C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp.iOS\bin\iPhoneSimulator\Debug\Flex.dll
+C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp.iOS\bin\iPhoneSimulator\Debug\Flex.iOS.dll
+C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp.iOS\bin\iPhoneSimulator\Debug\System.Net.Http.Extensions.dll
+C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp.iOS\bin\iPhoneSimulator\Debug\System.Net.Http.Primitives.dll
+C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp.iOS\bin\iPhoneSimulator\Debug\Newtonsoft.Json.dll
+C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp.iOS\bin\iPhoneSimulator\Debug\ImageCircle.Forms.Plugin.dll
+C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp.iOS\bin\iPhoneSimulator\Debug\Plugin.Settings.Abstractions.dll
+C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp.iOS\bin\iPhoneSimulator\Debug\Plugin.Settings.Abstractions.pdb
+C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp.iOS\bin\iPhoneSimulator\Debug\Plugin.Settings.dll
 C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Core.dll
 C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Core.pdb
 C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.dll
@@ -55,6 +66,3 @@ C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp.iOS\obj\iPhoneSimulator\Debug\X
 C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp.iOS\obj\iPhoneSimulator\Debug\NanoApp.iOS.csproj.CopyComplete
 C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp.iOS\obj\iPhoneSimulator\Debug\NanoApp.iOS.exe
 C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp.iOS\obj\iPhoneSimulator\Debug\NanoApp.iOS.pdb
-C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp.iOS\bin\iPhoneSimulator\Debug\Flex.dll
-C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp.iOS\bin\iPhoneSimulator\Debug\Flex.iOS.dll
-C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp.iOS\bin\iPhoneSimulator\Debug\ImageCircle.Forms.Plugin.dll

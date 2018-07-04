@@ -21,6 +21,7 @@ C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp.Android\obj\Debug\android\asset
 C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp.Android\obj\Debug\android\assets\System.Runtime.Serialization.dll
 C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp.Android\obj\Debug\android\assets\System.Xml.dll
 C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp.Android\obj\Debug\android\assets\System.Xml.Linq.dll
+C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp.Android\obj\Debug\android\assets\Xamanimation.dll
 C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp.Android\obj\Debug\android\assets\Xamarin.Android.Arch.Core.Common.dll
 C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp.Android\obj\Debug\android\assets\Xamarin.Android.Arch.Lifecycle.Common.dll
 C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp.Android\obj\Debug\android\assets\Xamarin.Android.Arch.Lifecycle.Runtime.dll
@@ -76,3 +77,5 @@ C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp.Android\obj\Debug\android\asset
 C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp.Android\obj\Debug\android\assets\Mono.Security.dll
 C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp.Android\obj\Debug\android\assets\System.Net.Primitives.dll
 C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp.Android\obj\Debug\android\assets\System.ServiceModel.Internals.dll
+C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp.Android\obj\Debug\android\assets\System.Resources.ResourceManager.dll
+C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp.Android\obj\Debug\android\assets\System.Threading.Tasks.dll

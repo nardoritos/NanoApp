@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "d81e3d9d55feae3f3db5b764901b58e6260bdbf2"
+    "signature": "d61e4902d14e395290592baa455e29a200ec7888"
   },
   "compilationOptions": {},
   "targets": {
@@ -16,6 +16,7 @@
           "Newtonsoft.Json": "11.0.2",
           "Xam.Plugins.Forms.ImageCircle": "3.0.0.5",
           "Xam.Plugins.Settings": "3.1.1",
+          "Xamanimation": "1.1.0",
           "Xamarin.Forms": "3.0.0.561731"
         },
         "runtime": {
@@ -77,6 +78,14 @@
         "runtime": {
           "lib/netstandard1.0/Plugin.Settings.Abstractions.dll": {},
           "lib/netstandard1.0/Plugin.Settings.dll": {}
+        }
+      },
+      "Xamanimation/1.1.0": {
+        "dependencies": {
+          "Xamarin.Forms": "3.0.0.561731"
+        },
+        "runtime": {
+          "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Xamanimation.dll": {}
         }
       },
       "Xamarin.Forms/3.0.0.561731": {
@@ -163,6 +172,13 @@
       "sha512": "sha512-EQEYQJ64ZLqui5GWkLMavgqitHxwUHZHryTzUD1021UBuz1XwDSjPL45W0K4pPXjz9oKbg7YpRXKPR1luPr/5Q==",
       "path": "xam.plugins.settings/3.1.1",
       "hashPath": "xam.plugins.settings.3.1.1.nupkg.sha512"
+    },
+    "Xamanimation/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RcUXT9XQOFBU0imnr3WVtH6MNtNELvm2FHb/Pu5YG9OGacGggP6ariiJlh+q8BiWBw1T8RkQkP/q8jpG2DpzOg==",
+      "path": "xamanimation/1.1.0",
+      "hashPath": "xamanimation.1.1.0.nupkg.sha512"
     },
     "Xamarin.Forms/3.0.0.561731": {
       "type": "package",

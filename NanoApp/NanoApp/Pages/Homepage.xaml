@@ -53,8 +53,10 @@
 		<StackLayout Grid.Row="1">
 			<flex:FlexButton
                 x:Name="CarButton"
+                IconOrientation="Left"
+                HorizontalOptions="Center"
+                WidthRequest="300"
                 HeightRequest="76"
-				WidthRequest="200"
                 CornerRadius="22"
                 Icon="car.png"
                 Text="Icon and Text"
