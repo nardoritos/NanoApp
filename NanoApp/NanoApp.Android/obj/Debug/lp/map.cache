@@ -28,3 +28,12 @@ Xamarin.Forms.Platform.Android
 Xamarin.Forms.Platform
 Xamarin.Forms.Xaml
 netstandard
+Newtonsoft.Json
+System.Net.Http.Extensions
+System.Net.Http.Primitives
+Plugin.Settings.Abstractions
+Plugin.Settings
+Acr.UserDialogs
+AndHUD
+System.Collections
+System.Threading.Tasks

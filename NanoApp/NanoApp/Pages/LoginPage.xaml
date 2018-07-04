@@ -4,6 +4,9 @@
              x:Class="NanoApp.LoginPage"
 			 xmlns:local="clr-namespace:NanoApp">
 	<AbsoluteLayout>
+		
+			
+		
 		<Image	Source="{local:EmbeddedResource ResourceID=NanoApp.Imagens.background.jpg}"
 					Aspect="AspectFill"
 					AbsoluteLayout.LayoutBounds="0,0,1,1"
@@ -19,14 +22,17 @@
 					Aspect="AspectFit"
 					/>
 			<Entry	Placeholder="LOGIN"
+					x:Name="Login"
 					PlaceholderColor="White"
 					TextColor="White"
 					FontSize="30"
 					FontFamily="{StaticResource RobotoLight}"/>
 
 			<Entry	Placeholder="SENHA"
+					x:Name="Senha"
 					PlaceholderColor="White"
 					TextColor="White"
+					IsPassword="True"
 					FontSize="30"
 					FontFamily="{StaticResource RobotoLight}"/>
 			

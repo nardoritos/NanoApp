@@ -18,9 +18,9 @@
 					<ColumnDefinition Width="80"/>
 				</Grid.ColumnDefinitions>
 				<Grid.RowDefinitions>
-					<RowDefinition Height="15"/>
-					<RowDefinition Height="15"/>
-					<RowDefinition Height="15"/>
+					<RowDefinition Height="*"/>
+					<RowDefinition Height="*"/>
+					<RowDefinition Height="*"/>
 				</Grid.RowDefinitions>
 				<Image Source="https://cdn.onlinewebfonts.com/svg/img_299586.png"
 					   Aspect="AspectFit"
@@ -28,19 +28,83 @@
 					   Grid.Row="0"
 					   Grid.Column="0"/>
 				<Label Text="Fulano de Tal"
+					   x:Name="UserName"
+					   TextColor="White"
 					   Grid.Column="1"
-					   Grid.Row="0"/>
+					   Grid.Row="0"
+					   FontSize="Medium"
+						FontFamily="{StaticResource RobotoLight}"/>
 				<Label Text="Cargo"
+					   x:Name="Cargo"
+					   TextColor="White"
 					   Grid.Column="1"
-					   Grid.Row="1"/>
+					   Grid.Row="1"
+						FontSize="Medium"
+						FontFamily="{StaticResource RobotoLight}"/>
 				<Label Text="Nome da Obra"
+					   x:Name="Obra"
+					   TextColor="White"
 					   Grid.Column="1"
-					   Grid.Row="2"/>
+					   Grid.Row="2"
+					   FontSize="Medium"
+						FontFamily="{StaticResource RobotoLight}"/>
 			</Grid>
 		</StackLayout>
-		<StackLayout Orientation="Horizontal" HorizontalOptions="Center" Grid.Row="1">
-			
-		
+		<StackLayout Grid.Row="1">
+			<flex:FlexButton
+                x:Name="CarButton"
+                HeightRequest="76"
+				WidthRequest="200"
+                CornerRadius="22"
+                Icon="car.png"
+                Text="Icon and Text"
+                BorderThickness="0,0,0,4"
+                BorderColor="#5a9500"
+                HighlightBorderColor="#8cc63e"
+                ForegroundColor="#ffffff"
+                HighlightForegroundColor="#8cc63e"
+                BackgroundColor="#8CC63E"
+                HighlightBackgroundColor="#bff96f"
+				FontSize="20"
+						FontFamily="{StaticResource RobotoLight}"/>
+			<flex:FlexButton
+                x:Name="FuelButton"
+                IconOrientation="Left"
+                HorizontalOptions="Center"
+                WidthRequest="300"
+                HeightRequest="76"
+                CornerRadius="22"
+                Icon="fuelstation.png"
+                Text="Icon and Text"
+                BorderThickness="0,0,0,4"
+                BorderColor="#5a9500"
+                HighlightBorderColor="#8cc63e"
+                ForegroundColor="#ffffff"
+                HighlightForegroundColor="#8cc63e"
+                BackgroundColor="#8CC63E"
+                HighlightBackgroundColor="#bff96f"
+				FontSize="20"
+						FontFamily="{StaticResource RobotoLight}"/>
+			<flex:FlexButton
+                x:Name="PaintButton"
+                IconOrientation="Left"
+                HorizontalOptions="Center"
+                WidthRequest="300"
+                HeightRequest="76"
+                CornerRadius="22"
+                Icon="paintroller.png"
+                Text="Icon and Text"
+                BorderThickness="0,0,0,4"
+                BorderColor="#5a9500"
+                HighlightBorderColor="#8cc63e"
+                ForegroundColor="#ffffff"
+                HighlightForegroundColor="#8cc63e"
+                BackgroundColor="#8CC63E"
+                HighlightBackgroundColor="#bff96f"
+				FontSize="20"
+				FontFamily="{StaticResource RobotoLight}"
+				Clicked="PaintButton_Clicked"/>
+
 		</StackLayout>
 	</Grid>
 </ContentPage>
