@@ -3,55 +3,58 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="NanoApp.Homepage"
 			 xmlns:flex="clr-namespace:Flex.Controls;assembly=Flex"
+			 xmlns:fab="clr-namespace:SuaveControls.Views;assembly=SuaveControls.FloatingActionButton"
 			 Title="Início">
-	<Grid>
-		<Grid.RowDefinitions>
-			<RowDefinition Height="150"/>
-			<RowDefinition Height="*"/>
-		</Grid.RowDefinitions>
-		<StackLayout BackgroundColor="#FFAD01"
+	<RelativeLayout>
+		<Grid RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}"
+              RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=1}">
+			<Grid.RowDefinitions>
+				<RowDefinition Height="150"/>
+				<RowDefinition Height="*"/>
+			</Grid.RowDefinitions>
+			<StackLayout BackgroundColor="#FFAD01"
 					 Grid.Row="0">
-			<Grid VerticalOptions="CenterAndExpand"
+				<Grid VerticalOptions="CenterAndExpand"
 				  HorizontalOptions="CenterAndExpand">
-				<Grid.ColumnDefinitions>
-					<ColumnDefinition Width="100"/>
-					<ColumnDefinition Width="80"/>
-				</Grid.ColumnDefinitions>
-				<Grid.RowDefinitions>
-					<RowDefinition Height="*"/>
-					<RowDefinition Height="*"/>
-					<RowDefinition Height="*"/>
-				</Grid.RowDefinitions>
-				<Image Source="https://cdn.onlinewebfonts.com/svg/img_299586.png"
+					<Grid.ColumnDefinitions>
+						<ColumnDefinition Width="100"/>
+						<ColumnDefinition Width="80"/>
+					</Grid.ColumnDefinitions>
+					<Grid.RowDefinitions>
+						<RowDefinition Height="*"/>
+						<RowDefinition Height="*"/>
+						<RowDefinition Height="*"/>
+					</Grid.RowDefinitions>
+					<Image Source="https://cdn.onlinewebfonts.com/svg/img_299586.png"
 					   Aspect="AspectFit"
 					   Grid.RowSpan="3"
 					   Grid.Row="0"
 					   Grid.Column="0"/>
-				<Label Text="Fulano de Tal"
+					<Label Text="Fulano de Tal"
 					   x:Name="UserName"
 					   TextColor="White"
 					   Grid.Column="1"
 					   Grid.Row="0"
 					   FontSize="Medium"
 						FontFamily="{StaticResource RobotoLight}"/>
-				<Label Text="Cargo"
+					<Label Text="Cargo"
 					   x:Name="Cargo"
 					   TextColor="White"
 					   Grid.Column="1"
 					   Grid.Row="1"
 						FontSize="Medium"
 						FontFamily="{StaticResource RobotoLight}"/>
-				<Label Text="Nome da Obra"
+					<Label Text="Nome da Obra"
 					   x:Name="Obra"
 					   TextColor="White"
 					   Grid.Column="1"
 					   Grid.Row="2"
 					   FontSize="Medium"
 						FontFamily="{StaticResource RobotoLight}"/>
-			</Grid>
-		</StackLayout>
-		<StackLayout Grid.Row="1">
-			<flex:FlexButton
+				</Grid>
+			</StackLayout>
+			<StackLayout Grid.Row="1">
+				<flex:FlexButton
                 x:Name="CarButton"
                 IconOrientation="Left"
                 HorizontalOptions="Center"
@@ -68,8 +71,8 @@
                 BackgroundColor="#8CC63E"
                 HighlightBackgroundColor="#bff96f"
 				FontSize="20"
-						FontFamily="{StaticResource RobotoLight}"/>
-			<flex:FlexButton
+				FontFamily="{StaticResource RobotoLight}"/>
+				<flex:FlexButton
                 x:Name="FuelButton"
                 IconOrientation="Left"
                 HorizontalOptions="Center"
@@ -87,7 +90,7 @@
                 HighlightBackgroundColor="#bff96f"
 				FontSize="20"
 						FontFamily="{StaticResource RobotoLight}"/>
-			<flex:FlexButton
+				<flex:FlexButton
                 x:Name="PaintButton"
                 IconOrientation="Left"
                 HorizontalOptions="Center"
@@ -107,6 +110,16 @@
 				FontFamily="{StaticResource RobotoLight}"
 				Clicked="PaintButton_Clicked"/>
 
-		</StackLayout>
-	</Grid>
+			</StackLayout>
+		</Grid>
+		<fab:FloatingActionButton
+                x:Name="fabBtn"
+				Image="plus.png"
+			BorderWidth="2"
+			BorderColor="White"
+				ButtonColor="Red"
+				RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1, Constant=-75}"  
+				RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=1, Constant=-75}" />
+
+	</RelativeLayout>
 </ContentPage>

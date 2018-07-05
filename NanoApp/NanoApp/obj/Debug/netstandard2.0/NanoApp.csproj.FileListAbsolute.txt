@@ -4,7 +4,6 @@ C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp\bin\Debug\netstandard2.0\NanoAp
 C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp\obj\Debug\netstandard2.0\Pages\Homepage.xaml.g.cs
 C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp\obj\Debug\netstandard2.0\Pages\LoginPage.xaml.g.cs
-C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp\obj\Debug\netstandard2.0\Pages\Sidenav.xaml.g.cs
 C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp\obj\Debug\netstandard2.0\NanoApp.csproj.CoreCompileInputs.cache
 C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp\obj\Debug\netstandard2.0\NanoApp.AssemblyInfoInputs.cache
 C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp\obj\Debug\netstandard2.0\NanoApp.AssemblyInfo.cs

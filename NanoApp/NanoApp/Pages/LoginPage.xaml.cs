@@ -35,9 +35,16 @@ namespace NanoApp
 
         public LoginPage()
         {
-            InitializeComponent();
-            BindingContext = this;
-            CheckInfo();
+            try
+            {
+                InitializeComponent();
+                BindingContext = this;
+                CheckInfo();
+            }
+            catch (Exception ex)
+            {
+                DisplayAlert("a", ex.ToString(), "A");
+            }
         }
         public void ValorIsLoading(bool valor)
         {
@@ -68,6 +75,7 @@ namespace NanoApp
 
         async void CheckInfo()
         {
+            await Task.Delay(1000);
             if (Settings.UserName !="" && Settings.Senha != "")
             {
                 try
@@ -116,8 +124,8 @@ namespace NanoApp
                     Settings.Tipo = _usuarios[0].Tipo;
                     
                     var newPage = new MasterDetailPage() { Master = new ContentPage() { Title = "ContentPage" }, Detail = new NavigationPage(new Homepage()) { BarTextColor = Color.White, BarBackgroundColor = Color.FromHex("#D49000") } };
-
                     App.Current.MainPage = newPage;
+                    
                 }
             }
             catch (Exception ex)

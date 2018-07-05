@@ -24,6 +24,7 @@
   </Jars>
   <ResolvedResourceDirectories>
     <ResolvedResourceDirectory>C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp.Android\obj\Debug\lp\1\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp.Android\obj\Debug\lp\41\jl\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp.Android\obj\Debug\lp\9\jl\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp.Android\obj\Debug\lp\20\jl\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp.Android\obj\Debug\lp\23\jl\res</ResolvedResourceDirectory>
@@ -37,12 +38,14 @@
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
     <ResolvedAssetDirectory>obj\Debug\lp\1\jl\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\lp\41\jl\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj\Debug\lp\9\jl\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj\Debug\lp\27\jl\assets</ResolvedAssetDirectory>
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
     <ResolvedResourceDirectoryStamp>C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp.Android\obj\Debug\lp\1.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp.Android\obj\Debug\lp\41.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp.Android\obj\Debug\lp\9.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp.Android\obj\Debug\lp\20.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp.Android\obj\Debug\lp\23.stamp</ResolvedResourceDirectoryStamp>

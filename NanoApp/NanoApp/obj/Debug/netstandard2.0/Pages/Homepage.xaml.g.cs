@@ -35,6 +35,9 @@ namespace NanoApp {
         private global::Flex.Controls.FlexButton PaintButton;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::SuaveControls.Views.FloatingActionButton fabBtn;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(Homepage));
             UserName = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Label>(this, "UserName");
@@ -43,6 +46,7 @@ namespace NanoApp {
             CarButton = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Flex.Controls.FlexButton>(this, "CarButton");
             FuelButton = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Flex.Controls.FlexButton>(this, "FuelButton");
             PaintButton = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Flex.Controls.FlexButton>(this, "PaintButton");
+            fabBtn = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::SuaveControls.Views.FloatingActionButton>(this, "fabBtn");
         }
     }
 }

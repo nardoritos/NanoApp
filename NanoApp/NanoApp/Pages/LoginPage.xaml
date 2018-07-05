@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="NanoApp.LoginPage"
-			 xmlns:local="clr-namespace:NanoApp">
+			 xmlns:local="clr-namespace:NanoApp"
+			 NavigationPage.HasNavigationBar="False">
 	<AbsoluteLayout>
 		
 			

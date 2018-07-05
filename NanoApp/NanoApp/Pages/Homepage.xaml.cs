@@ -1,19 +1,11 @@
-﻿using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Linq;
-using System.Net.Http;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
 namespace NanoApp
 {
-    
-	[XamlCompilation(XamlCompilationOptions.Compile)]
+
+    [XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class Homepage : ContentPage
 	{
        
@@ -28,13 +20,22 @@ namespace NanoApp
 
         private void PaintButton_Clicked(object sender, EventArgs e)
         {
-            Settings.Cargo = "";
-            Settings.Motorista = "";
-            Settings.Obra = "";
-            Settings.Senha = "";
-            Settings.Tipo = "";
-            Settings.UserName = "";
-            App.Current.MainPage = new LoginPage();
+            try
+            {
+                Settings.Cargo = "";
+                Settings.Motorista = "";
+                Settings.Obra = "";
+                Settings.Senha = "";
+                Settings.Tipo = "";
+                Settings.UserName = "";
+                Navigation.PopAsync();
+                Navigation.PushAsync(new NavigationPage(new LoginPage()));
+                
+            }
+            catch(Exception ex)
+            {
+                DisplayAlert("A", ex.ToString(), "OK");
+            }
         }
     }
 }

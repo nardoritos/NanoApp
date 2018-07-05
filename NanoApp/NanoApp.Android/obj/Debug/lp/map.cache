@@ -39,3 +39,8 @@ Xamarin.Forms.Xaml
 netstandard
 Xamanimation
 System.Resources.ResourceManager
+FAB.Droid
+FAB.Forms
+SuaveControls.FloatingActionButton
+SuaveControls.FloatingActionButton.Droid
+System.Diagnostics.Tools

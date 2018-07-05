@@ -38,6 +38,17 @@
           "lib/MonoAndroid/AndHUD.dll": {}
         }
       },
+      "FAB.Forms/2.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/MonoAndroid10/FAB.Droid.dll": {},
+          "lib/MonoAndroid10/FAB.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/FAB.Droid.dll": {},
+          "lib/MonoAndroid10/FAB.Forms.dll": {}
+        }
+      },
       "Forms.Controls.FlexButton/0.7.0": {
         "type": "package",
         "dependencies": {
@@ -92,6 +103,39 @@
         },
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "SuaveControls.FloatingActionButton/2018.1.5": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Android.Support.Animated.Vector.Drawable": "23.3.0",
+          "Xamarin.Android.Support.Design": "23.3.0",
+          "Xamarin.Android.Support.Vector.Drawable": "23.3.0",
+          "Xamarin.Android.Support.v4": "23.3.0",
+          "Xamarin.Android.Support.v7.AppCompat": "23.3.0",
+          "Xamarin.Android.Support.v7.CardView": "23.3.0",
+          "Xamarin.Android.Support.v7.MediaRouter": "23.3.0",
+          "Xamarin.Android.Support.v7.RecyclerView": "23.3.0",
+          "Xamarin.Forms": "2.3.4.231"
+        },
+        "frameworkAssemblies": [
+          "Java.Interop",
+          "Microsoft.CSharp",
+          "Mono.Android",
+          "System",
+          "System.Core",
+          "System.Runtime",
+          "System.Xml",
+          "System.Xml.Linq",
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/monoandroid80/SuaveControls.FloatingActionButton.Droid.dll": {},
+          "lib/monoandroid80/SuaveControls.FloatingActionButton.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid80/SuaveControls.FloatingActionButton.Droid.dll": {},
+          "lib/monoandroid80/SuaveControls.FloatingActionButton.dll": {}
         }
       },
       "Xam.Plugins.Forms.ImageCircle/3.0.0.5": {
@@ -476,9 +520,11 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Acr.UserDialogs": "7.0.1",
+          "FAB.Forms": "2.1.1",
           "Forms.Controls.FlexButton": "0.7.0",
           "Microsoft.Net.Http": "2.2.29",
           "Newtonsoft.Json": "11.0.2",
+          "SuaveControls.FloatingActionButton": "2018.1.5",
           "Xam.Plugins.Forms.ImageCircle": "3.0.0.5",
           "Xam.Plugins.Settings": "3.1.1",
           "Xamanimation": "1.1.0",
@@ -523,6 +569,31 @@
         "andhud.1.2.0.nupkg.sha512",
         "andhud.nuspec",
         "lib/MonoAndroid/AndHUD.dll"
+      ]
+    },
+    "FAB.Forms/2.1.1": {
+      "sha512": "B8TPxUhNVBfqTbkuD28QYFKaLr++S1/OEhkCF4fhbS3bSAtg1EdfDIFCqok/mKMSMyXNCa6BcfVq36xvC58BAQ==",
+      "type": "package",
+      "path": "fab.forms/2.1.1",
+      "files": [
+        "fab.forms.2.1.1.nupkg.sha512",
+        "fab.forms.nuspec",
+        "lib/MonoAndroid10/FAB.Droid.dll",
+        "lib/MonoAndroid10/FAB.Droid.xml",
+        "lib/MonoAndroid10/FAB.Forms.dll",
+        "lib/MonoAndroid10/FAB.Forms.xml",
+        "lib/MonoTouch10/FAB.Forms.dll",
+        "lib/MonoTouch10/FAB.Forms.xml",
+        "lib/MonoTouch10/FAB.iOS.dll",
+        "lib/MonoTouch10/FAB.iOS.xml",
+        "lib/Xamarin.iOS10/FAB.Forms.dll",
+        "lib/Xamarin.iOS10/FAB.Forms.xml",
+        "lib/Xamarin.iOS10/FAB.iOS.dll",
+        "lib/Xamarin.iOS10/FAB.iOS.xml",
+        "lib/portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10/FAB.Forms.dll",
+        "lib/portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10/FAB.Forms.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/FAB.Forms.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/FAB.Forms.xml"
       ]
     },
     "Forms.Controls.FlexButton/0.7.0": {
@@ -742,6 +813,20 @@
         "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
         "newtonsoft.json.11.0.2.nupkg.sha512",
         "newtonsoft.json.nuspec"
+      ]
+    },
+    "SuaveControls.FloatingActionButton/2018.1.5": {
+      "sha512": "sgnBqhD3nXNT/yEO0DzS+WfaHYnhnf8K3g9FMD9o5CMpdG7NOuJme8AmbmOyEBHw0NeLMDX+FHmErVBCMq36BA==",
+      "type": "package",
+      "path": "suavecontrols.floatingactionbutton/2018.1.5",
+      "files": [
+        "lib/monoandroid80/SuaveControls.FloatingActionButton.Droid.dll",
+        "lib/monoandroid80/SuaveControls.FloatingActionButton.dll",
+        "lib/portable45-net45+win8+wpa81/SuaveControls.FloatingActionButton.dll",
+        "lib/xamarinios10/SuaveControls.FloatingActionButton.dll",
+        "lib/xamarinios10/SuaveControls.FloatingActionButton.iOS.dll",
+        "suavecontrols.floatingactionbutton.2018.1.5.nupkg.sha512",
+        "suavecontrols.floatingactionbutton.nuspec"
       ]
     },
     "Xam.Plugins.Forms.ImageCircle/3.0.0.5": {
@@ -1255,10 +1340,12 @@
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v8.1": [
       "Acr.UserDialogs >= 7.0.1",
+      "FAB.Forms >= 2.1.1",
       "Forms.Controls.FlexButton >= 0.7.0",
       "Microsoft.Net.Http >= 2.2.29",
       "NanoApp >= 1.0.0",
       "Newtonsoft.Json >= 11.0.2",
+      "SuaveControls.FloatingActionButton >= 2018.1.5",
       "Xam.Plugins.Forms.ImageCircle >= 3.0.0.5",
       "Xam.Plugins.Settings >= 3.1.1",
       "Xamanimation >= 1.1.0",
@@ -1311,6 +1398,10 @@
             "target": "Package",
             "version": "[7.0.1, )"
           },
+          "FAB.Forms": {
+            "target": "Package",
+            "version": "[2.1.1, )"
+          },
           "Forms.Controls.FlexButton": {
             "target": "Package",
             "version": "[0.7.0, )"
@@ -1322,6 +1413,10 @@
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[11.0.2, )"
+          },
+          "SuaveControls.FloatingActionButton": {
+            "target": "Package",
+            "version": "[2018.1.5, )"
           },
           "Xam.Plugins.Forms.ImageCircle": {
             "target": "Package",

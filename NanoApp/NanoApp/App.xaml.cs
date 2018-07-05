@@ -11,7 +11,7 @@ namespace NanoApp
 		{
 			InitializeComponent();
 
-			MainPage = new Sidenav();
+            MainPage = new NavigationPage(new LoginPage()); ;
 		}
 
 		protected override void OnStart ()

@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "d61e4902d14e395290592baa455e29a200ec7888"
+    "signature": "e8682847856c55ebb6f7b8f9dbc7e55bb40c1ce8"
   },
   "compilationOptions": {},
   "targets": {
@@ -10,10 +10,12 @@
       "NanoApp/1.0.0": {
         "dependencies": {
           "Acr.UserDialogs": "7.0.1",
+          "FAB.Forms": "2.1.1",
           "Forms.Controls.FlexButton": "0.7.0",
           "Microsoft.Net.Http": "2.2.29",
           "NETStandard.Library": "2.0.1",
           "Newtonsoft.Json": "11.0.2",
+          "SuaveControls.FloatingActionButton": "2018.1.5",
           "Xam.Plugins.Forms.ImageCircle": "3.0.0.5",
           "Xam.Plugins.Settings": "3.1.1",
           "Xamanimation": "1.1.0",
@@ -26,6 +28,11 @@
       "Acr.UserDialogs/7.0.1": {
         "runtime": {
           "lib/netstandard2.0/Acr.UserDialogs.dll": {}
+        }
+      },
+      "FAB.Forms/2.1.1": {
+        "runtime": {
+          "lib/portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10/FAB.Forms.dll": {}
         }
       },
       "Forms.Controls.FlexButton/0.7.0": {
@@ -61,6 +68,11 @@
       "Newtonsoft.Json/11.0.2": {
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "SuaveControls.FloatingActionButton/2018.1.5": {
+        "runtime": {
+          "lib/portable45-net45+win8+wpa81/SuaveControls.FloatingActionButton.dll": {}
         }
       },
       "Xam.Plugins.Forms.ImageCircle/3.0.0.5": {
@@ -110,6 +122,13 @@
       "path": "acr.userdialogs/7.0.1",
       "hashPath": "acr.userdialogs.7.0.1.nupkg.sha512"
     },
+    "FAB.Forms/2.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-B8TPxUhNVBfqTbkuD28QYFKaLr++S1/OEhkCF4fhbS3bSAtg1EdfDIFCqok/mKMSMyXNCa6BcfVq36xvC58BAQ==",
+      "path": "fab.forms/2.1.1",
+      "hashPath": "fab.forms.2.1.1.nupkg.sha512"
+    },
     "Forms.Controls.FlexButton/0.7.0": {
       "type": "package",
       "serviceable": true,
@@ -158,6 +177,13 @@
       "sha512": "sha512-IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
       "path": "newtonsoft.json/11.0.2",
       "hashPath": "newtonsoft.json.11.0.2.nupkg.sha512"
+    },
+    "SuaveControls.FloatingActionButton/2018.1.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sgnBqhD3nXNT/yEO0DzS+WfaHYnhnf8K3g9FMD9o5CMpdG7NOuJme8AmbmOyEBHw0NeLMDX+FHmErVBCMq36BA==",
+      "path": "suavecontrols.floatingactionbutton/2018.1.5",
+      "hashPath": "suavecontrols.floatingactionbutton.2018.1.5.nupkg.sha512"
     },
     "Xam.Plugins.Forms.ImageCircle/3.0.0.5": {
       "type": "package",

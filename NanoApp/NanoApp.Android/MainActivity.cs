@@ -21,6 +21,7 @@ namespace NanoApp.Droid
             base.OnCreate(bundle);
             Window.SetStatusBarColor(Android.Graphics.Color.Black);
             UserDialogs.Init(this);
+            FAB.Droid.FloatingActionButtonRenderer.InitControl();
             global::Xamarin.Forms.Forms.Init(this, bundle);
             LoadApplication(new App());
         }

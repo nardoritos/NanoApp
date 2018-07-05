@@ -11,6 +11,15 @@
           "lib/netstandard2.0/Acr.UserDialogs.dll": {}
         }
       },
+      "FAB.Forms/2.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10/FAB.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10/FAB.Forms.dll": {}
+        }
+      },
       "Forms.Controls.FlexButton/0.7.0": {
         "type": "package",
         "dependencies": {
@@ -84,6 +93,15 @@
         },
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "SuaveControls.FloatingActionButton/2018.1.5": {
+        "type": "package",
+        "compile": {
+          "lib/portable45-net45+win8+wpa81/SuaveControls.FloatingActionButton.dll": {}
+        },
+        "runtime": {
+          "lib/portable45-net45+win8+wpa81/SuaveControls.FloatingActionButton.dll": {}
         }
       },
       "Xam.Plugins.Forms.ImageCircle/3.0.0.5": {
@@ -163,6 +181,31 @@
         "lib/uap10.0.16299/Acr.UserDialogs/Platforms/Uwp/ProgressContentDialog.xaml",
         "lib/uap10.0.16299/Acr.UserDialogs/Platforms/Uwp/TimePickerControl.xaml",
         "lib/xamarinios10/Acr.UserDialogs.dll"
+      ]
+    },
+    "FAB.Forms/2.1.1": {
+      "sha512": "B8TPxUhNVBfqTbkuD28QYFKaLr++S1/OEhkCF4fhbS3bSAtg1EdfDIFCqok/mKMSMyXNCa6BcfVq36xvC58BAQ==",
+      "type": "package",
+      "path": "fab.forms/2.1.1",
+      "files": [
+        "fab.forms.2.1.1.nupkg.sha512",
+        "fab.forms.nuspec",
+        "lib/MonoAndroid10/FAB.Droid.dll",
+        "lib/MonoAndroid10/FAB.Droid.xml",
+        "lib/MonoAndroid10/FAB.Forms.dll",
+        "lib/MonoAndroid10/FAB.Forms.xml",
+        "lib/MonoTouch10/FAB.Forms.dll",
+        "lib/MonoTouch10/FAB.Forms.xml",
+        "lib/MonoTouch10/FAB.iOS.dll",
+        "lib/MonoTouch10/FAB.iOS.xml",
+        "lib/Xamarin.iOS10/FAB.Forms.dll",
+        "lib/Xamarin.iOS10/FAB.Forms.xml",
+        "lib/Xamarin.iOS10/FAB.iOS.dll",
+        "lib/Xamarin.iOS10/FAB.iOS.xml",
+        "lib/portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10/FAB.Forms.dll",
+        "lib/portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10/FAB.Forms.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/FAB.Forms.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/FAB.Forms.xml"
       ]
     },
     "Forms.Controls.FlexButton/0.7.0": {
@@ -525,6 +568,20 @@
         "newtonsoft.json.nuspec"
       ]
     },
+    "SuaveControls.FloatingActionButton/2018.1.5": {
+      "sha512": "sgnBqhD3nXNT/yEO0DzS+WfaHYnhnf8K3g9FMD9o5CMpdG7NOuJme8AmbmOyEBHw0NeLMDX+FHmErVBCMq36BA==",
+      "type": "package",
+      "path": "suavecontrols.floatingactionbutton/2018.1.5",
+      "files": [
+        "lib/monoandroid80/SuaveControls.FloatingActionButton.Droid.dll",
+        "lib/monoandroid80/SuaveControls.FloatingActionButton.dll",
+        "lib/portable45-net45+win8+wpa81/SuaveControls.FloatingActionButton.dll",
+        "lib/xamarinios10/SuaveControls.FloatingActionButton.dll",
+        "lib/xamarinios10/SuaveControls.FloatingActionButton.iOS.dll",
+        "suavecontrols.floatingactionbutton.2018.1.5.nupkg.sha512",
+        "suavecontrols.floatingactionbutton.nuspec"
+      ]
+    },
     "Xam.Plugins.Forms.ImageCircle/3.0.0.5": {
       "sha512": "59HyuAaUzuloQmu/PVCDCJQMRuuhqmIpCQ+d5hH5Qp8AZsa/vDi5ulrXDKRMZSZt/xbXsyZV+aZ/W/SZaYt2Mg==",
       "type": "package",
@@ -776,10 +833,12 @@
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "Acr.UserDialogs >= 7.0.1",
+      "FAB.Forms >= 2.1.1",
       "Forms.Controls.FlexButton >= 0.7.0",
       "Microsoft.Net.Http >= 2.2.29",
       "NETStandard.Library >= 2.0.1",
       "Newtonsoft.Json >= 11.0.2",
+      "SuaveControls.FloatingActionButton >= 2018.1.5",
       "Xam.Plugins.Forms.ImageCircle >= 3.0.0.5",
       "Xam.Plugins.Settings >= 3.1.1",
       "Xamanimation >= 1.1.0",
@@ -831,6 +890,10 @@
             "target": "Package",
             "version": "[7.0.1, )"
           },
+          "FAB.Forms": {
+            "target": "Package",
+            "version": "[2.1.1, )"
+          },
           "Forms.Controls.FlexButton": {
             "target": "Package",
             "version": "[0.7.0, )"
@@ -848,6 +911,10 @@
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[11.0.2, )"
+          },
+          "SuaveControls.FloatingActionButton": {
+            "target": "Package",
+            "version": "[2018.1.5, )"
           },
           "Xam.Plugins.Forms.ImageCircle": {
             "target": "Package",
@@ -879,6 +946,16 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
+      "message": "O pacote 'FAB.Forms 2.1.1' foi restaurado usando '.NETFramework,Version=v4.6.1' em vez da estrutura de destino do projeto '.NETStandard,Version=v2.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "FAB.Forms",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
       "message": "O pacote 'Microsoft.Bcl 1.1.10' foi restaurado usando '.NETFramework,Version=v4.6.1' em vez da estrutura de destino do projeto '.NETStandard,Version=v2.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
       "libraryId": "Microsoft.Bcl",
       "targetGraphs": [
@@ -891,6 +968,16 @@
       "warningLevel": 1,
       "message": "O pacote 'Microsoft.Net.Http 2.2.29' foi restaurado usando '.NETFramework,Version=v4.6.1' em vez da estrutura de destino do projeto '.NETStandard,Version=v2.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
       "libraryId": "Microsoft.Net.Http",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'SuaveControls.FloatingActionButton 2018.1.5' foi restaurado usando '.NETFramework,Version=v4.6.1' em vez da estrutura de destino do projeto '.NETStandard,Version=v2.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "SuaveControls.FloatingActionButton",
       "targetGraphs": [
         ".NETStandard,Version=v2.0"
       ]
