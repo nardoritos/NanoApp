@@ -128,11 +128,11 @@ namespace NanoApp
                     
                 }
             }
-            catch (Exception ex)
+            catch
             {
-                IsLoading = false;
-                await DisplayAlert("Erro ao conectar", ex.ToString(), "OK");
                 ValorIsLoading(false);
+                await DisplayAlert("Erro ao conectar", "Cheque os dados inseridos e tente novamente.", "OK");
+                
             }
         }
     }

@@ -118,6 +118,7 @@ C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp.Android\bin\Debug\Microsoft.CSh
 C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp.Android\obj\Debug\linksrc\Microsoft.CSharp.pdb
 C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp.Android\obj\Debug\android\assets\Microsoft.CSharp.pdb
 C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp.Android\obj\Debug\res\drawable\plus.png
+C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp.Android\obj\Debug\res\drawable\exit.png
 C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp.Android\bin\Debug\NanoApp.Android.dll
 C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp.Android\obj\Debug\linksrc\NanoApp.pdb
 C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp.Android\obj\Debug\linksrc\NanoApp.Android.dll.mdb

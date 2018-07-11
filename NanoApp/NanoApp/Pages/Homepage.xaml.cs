@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NanoApp.Pages;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -29,13 +30,18 @@ namespace NanoApp
                 Settings.Tipo = "";
                 Settings.UserName = "";
                 Navigation.PopAsync();
-                Navigation.PushAsync(new NavigationPage(new LoginPage()));
+                App.Current.MainPage= new NavigationPage(new LoginPage());
                 
             }
             catch(Exception ex)
             {
                 DisplayAlert("A", ex.ToString(), "OK");
             }
+        }
+
+        private void CarButton_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new FormCarroPage());
         }
     }
 }

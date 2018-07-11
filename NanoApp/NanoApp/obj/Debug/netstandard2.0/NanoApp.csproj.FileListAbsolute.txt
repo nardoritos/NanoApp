@@ -11,3 +11,4 @@ C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp\obj\Debug\netstandard2.0\XamlC.
 C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp\obj\Debug\netstandard2.0\NanoApp.dll
 C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp\obj\Debug\netstandard2.0\NanoApp.pdb
 C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp\obj\Debug\netstandard2.0\NanoApp.csprojAssemblyReference.cache
+C:\Users\PC\source\repos\NanoApp\NanoApp\NanoApp\obj\Debug\netstandard2.0\Pages\FormCarroPage.xaml.g.cs
