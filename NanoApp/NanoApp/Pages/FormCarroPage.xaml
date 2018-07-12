@@ -2,42 +2,26 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="NanoApp.Pages.FormCarroPage"
-			 xmlns:flex="clr-namespace:Flex.Controls;assembly=Flex">
+			 xmlns:flex="clr-namespace:Flex.Controls;assembly=Flex"
+			 Title="Escolha o veículo">
 	<Grid>
 		<Grid.RowDefinitions>
 			<RowDefinition Height="*"/>
+			<RowDefinition Height="2*"/>
+			<RowDefinition Height="2*"/>
 			<RowDefinition Height="*"/>
+			<RowDefinition Height="50"/>
 		</Grid.RowDefinitions>
-		<StackLayout Orientation="Horizontal"
-					 Grid.Row="0"
-					 HorizontalOptions="Fill"
-					 VerticalOptions="Fill">
-			<StackLayout HorizontalOptions="CenterAndExpand"
-						 VerticalOptions="CenterAndExpand">
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="*"/>
+			<ColumnDefinition Width="2*"/>
+			<ColumnDefinition Width="2*"/>
+			<ColumnDefinition Width="*"/>
+		</Grid.ColumnDefinitions>
+		<StackLayout Grid.Row="1"
+					 Grid.Column="1">
 				<flex:FlexButton IconOrientation="Left"
-					HorizontalOptions="End"
-					VerticalOptions="Center"
-								 Margin="0,0,50,0"
-					WidthRequest="100"
-					HeightRequest="100"
-					CornerRadius="22"
-					Icon="car.png"
-					BorderThickness="0,0,0,4"
-					BorderColor="#5a9500"
-					HighlightBorderColor="#8cc63e"
-					ForegroundColor="#ffffff"
-					HighlightForegroundColor="#8cc63e"
-					BackgroundColor="#8CC63E"
-					HighlightBackgroundColor="#bff96f"
-					FontSize="20"
-					FontFamily="{StaticResource RobotoLight}"/>
-				<Label Text="Kombi"/>
-			</StackLayout>
-			<StackLayout HorizontalOptions="CenterAndExpand"
-						 VerticalOptions="CenterAndExpand">
-				<flex:FlexButton IconOrientation="Left"
-					HorizontalOptions="Start"
-								 Margin="50,0,0,0"
+					HorizontalOptions="Center"
 					VerticalOptions="Center"
 					WidthRequest="100"
 					HeightRequest="100"
@@ -52,19 +36,98 @@
 					HighlightBackgroundColor="#bff96f"
 					FontSize="20"
 					FontFamily="{StaticResource RobotoLight}"/>
-				<Label Text="Kombi"/>
-			</StackLayout>
+				<Label Text="Kombi"
+					   HorizontalOptions="Center"
+				       VerticalOptions="Center"
+					   TextColor="#454545"
+					   FontSize="Large"
+					   FontFamily="{StaticResource RobotoLight}"/>
 		</StackLayout>
-		<StackLayout Orientation="Horizontal"
-					 Grid.Row="1">
-			<flex:FlexButton Text="Kombi"
-							 WidthRequest="100"
-							 HeightRequest="100"
-							 Margin="50"/>
-			<flex:FlexButton Text="Kombi"
-							 WidthRequest="100"
-							 HeightRequest="100"
-							 Margin="50"/>
+		<StackLayout Grid.Row="1"
+					 Grid.Column="2">
+			<flex:FlexButton IconOrientation="Left"
+								 HorizontalOptions="Center"
+					VerticalOptions="Center"
+					WidthRequest="100"
+					HeightRequest="100"
+					CornerRadius="22"
+					Icon="car.png"
+					BorderThickness="0,0,0,4"
+					BorderColor="#5a9500"
+					HighlightBorderColor="#8cc63e"
+					ForegroundColor="#ffffff"
+					HighlightForegroundColor="#8cc63e"
+					BackgroundColor="#8CC63E"
+					HighlightBackgroundColor="#bff96f"
+					FontSize="20"
+					FontFamily="{StaticResource RobotoLight}"/>
+			<Label Text="Kombi"
+					   HorizontalOptions="Center"
+					VerticalOptions="Center"
+				   TextColor="#454545"
+					   FontSize="Large"
+					   FontFamily="{StaticResource RobotoLight}"/>
+		</StackLayout>
+		<StackLayout Grid.Row="2"
+					 Grid.Column="1">
+				<flex:FlexButton IconOrientation="Left"
+					HorizontalOptions="Center"
+					VerticalOptions="Center"
+					WidthRequest="100"
+					HeightRequest="100"
+					CornerRadius="22"
+					Icon="car.png"
+					BorderThickness="0,0,0,4"
+					BorderColor="#5a9500"
+					HighlightBorderColor="#8cc63e"
+					ForegroundColor="#ffffff"
+					HighlightForegroundColor="#8cc63e"
+					BackgroundColor="#8CC63E"
+					HighlightBackgroundColor="#bff96f"
+					FontSize="20"
+					FontFamily="{StaticResource RobotoLight}"/>
+				<Label Text="Kombi"
+					   HorizontalOptions="Center"
+				       VerticalOptions="Center"
+					   TextColor="#454545"
+					   FontSize="Large"
+					   FontFamily="{StaticResource RobotoLight}"/>
+			</StackLayout>
+		<StackLayout Grid.Row="2"
+					 Grid.Column="2">
+			<flex:FlexButton IconOrientation="Left"
+					HorizontalOptions="Center"
+					VerticalOptions="Center"
+					WidthRequest="100"
+					HeightRequest="100"
+					CornerRadius="22"
+					Icon="car.png"
+					BorderThickness="0,0,0,4"
+					BorderColor="#5a9500"
+					HighlightBorderColor="#8cc63e"
+					ForegroundColor="#ffffff"
+					HighlightForegroundColor="#8cc63e"
+					BackgroundColor="#8CC63E"
+					HighlightBackgroundColor="#bff96f"
+					FontSize="20"
+					FontFamily="{StaticResource RobotoLight}"/>
+			<Label Text="Kombi"
+					   HorizontalOptions="Center"
+				       VerticalOptions="Center"
+				   TextColor="#454545"
+					   FontSize="Large"
+					   FontFamily="{StaticResource RobotoLight}"/>
+		</StackLayout>
+		<StackLayout Grid.Row="4"
+					 Grid.Column="0"
+					 Grid.ColumnSpan="4"
+					 BackgroundColor="Orange">
+			<Label Text="Pronto"
+				   HorizontalOptions="Center"
+				   VerticalOptions="Center"
+				   TextColor="White"
+					   FontSize="Large"
+					   FontFamily="{StaticResource RobotoLight}"></Label>
 		</StackLayout>
 	</Grid>
 	
